@@ -299,7 +299,7 @@ data:
         azs: {}
         gcs:
           project: $PROJECT_ID
-          bucket: $BUCKET_NAME
+          bucket: yougo-spinnaker-bucket
           rootFolder: front50
         redis: {}
         s3:
@@ -448,7 +448,7 @@ data:
           accounts:
           - name: my-google-account
             project: $PROJECT_ID
-            bucket: $BUCKET_NAME
+            bucket: yougo-spinnaker-bucket
             rootFolder: kayenta
             supportedTypes:
             - METRICS_STORE
